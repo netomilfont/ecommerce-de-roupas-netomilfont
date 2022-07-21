@@ -60,7 +60,7 @@ header {
     background-color: #37268C;
     transition: 0.5s;
 }
-li:hover span {
+.nav-links li:hover span {
     width: 100%;
     transition: 0.5s;
 }
@@ -179,7 +179,7 @@ img {
 
 /* ------------------------------MAIN CARDS--------------------------------- */
 
-.shop-car {
+.aside-bar {
     width: 25%;
 }
 
@@ -244,4 +244,107 @@ img {
     font-weight: 400;
     font-size: 14px;
     color: #242424;
+}
+
+.total-car {
+    box-sizing: border-box;
+    width: 347px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+    background-color: #292929;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.quantity-cart {
+    margin-bottom: 10px;
+}
+
+.cart-itens {
+    background-color: #F5F5F5;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 329px;
+    width: 320px;
+}
+
+.cart-item {
+    width: 306px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+
+}
+
+.cart-itens li {
+    width: 300px;
+    height: 92px;
+    margin-right: 0px;
+}
+
+.cart-itens img {
+    width: 92px;
+    height: 92px;
+}
+
+.cart-itens .card-img {
+    width: 92px;
+    height: 92px;
+    background-color: #FFFFFF;
+}
+
+.cart-itens .card-hashtag {
+    display: none;
+}
+
+.cart-itens .card-description {
+    display: none;
+}
+
+.cart-itens .card-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.cart-itens .card-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 92px;
+    padding: 5px;
+}   
+
+.cart-itens .card-price {
+    color: #2E245E;
+    font-weight: 600;
+    font-size: 14px;
+}
+.cart-itens .card-product {
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+.cart-itens .card-button {
+    background-color: #F5F5F5;
+    font-size: 14px;
+    border: none;
+    font-family: 'Inter';
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+    color: transparent;
+}
+
+.cart-itens .card-button::before {
+    content: "Remover";
+    display: block;
+    color: #292929;
+    cursor: pointer;
+
 }
