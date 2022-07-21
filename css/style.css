@@ -342,7 +342,7 @@ img {
 }
 
 .cart-itens .card-button::before {
-    content: "Remover";
+    content: "Remover ";
     display: block;
     color: #292929;
     cursor: pointer;
